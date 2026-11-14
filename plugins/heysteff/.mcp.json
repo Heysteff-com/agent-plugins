@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "heysteff": {
+      "type": "http",
+      "url": "https://mcp.heysteff.com/mcp"
+    }
+  }
+}

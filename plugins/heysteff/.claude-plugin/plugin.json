@@ -1,0 +1,25 @@
+{
+  "name": "heysteff",
+  "displayName": "heysteff",
+  "version": "0.1.0",
+  "description": "Mensajería omnicanal (WhatsApp, Instagram, Messenger, SMS y correo) desde tu agente de código: servidor MCP con OAuth, skills de la API v1 y reglas de seguridad.",
+  "author": {
+    "name": "heysteff",
+    "url": "https://developers.heysteff.com"
+  },
+  "homepage": "https://developers.heysteff.com/docs/agentes-de-codigo",
+  "repository": "https://github.com/heysteff-com/agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "heysteff",
+    "whatsapp",
+    "instagram",
+    "messenger",
+    "sms",
+    "mcp",
+    "messaging"
+  ],
+  "privacyPolicyUrl": "https://heysteff.com/privacy",
+  "termsOfServiceUrl": "https://heysteff.com/terms",
+  "documentationUrl": "https://developers.heysteff.com/docs/agentes-de-codigo"
+}

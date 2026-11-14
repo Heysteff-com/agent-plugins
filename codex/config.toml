@@ -1,0 +1,7 @@
+# Agrega este bloque a ~/.codex/config.toml (o corre:
+#   codex mcp add heysteff --url "https://mcp.heysteff.com/mcp"
+# ) y luego autoriza con `codex mcp login heysteff`. En la pantalla de
+# autorización eliges el espacio de heysteff: el permiso queda ligado a ese.
+
+[mcp_servers.heysteff]
+url = "https://mcp.heysteff.com/mcp"

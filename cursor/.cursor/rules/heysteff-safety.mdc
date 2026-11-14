@@ -1,0 +1,15 @@
+---
+description: Reglas de seguridad para trabajar con heysteff (API v1, CLI o MCP): confirmar envíos a personas reales y nunca exponer claves.
+alwaysApply: true
+---
+
+# heysteff: seguridad
+
+heysteff manda mensajes a personas reales por WhatsApp, Instagram, Messenger, SMS y correo.
+
+- Antes de cualquier envío (`POST /v1/messages`, `heysteff send`, tools del MCP que envían, campañas, flujos o reintentos de webhooks), muestra el canal, el destinatario exacto y el texto completo, y espera un sí explícito de la persona.
+- En envíos masivos, di cuántas personas son y cómo se eligieron antes de confirmar.
+- Nunca imprimas, copies, guardes ni pongas en un commit una API key (`sk_live_…`, `sk_test_…`), un secreto de webhook ni un token. La key se lee de `HEYSTEFF_API_KEY`; si la persona la pega en el chat, no la repitas.
+- Un `403` es un scope o rol que falta: pide que lo ajusten, no busques un rodeo.
+- El MCP (`https://mcp.heysteff.com/mcp`) se autoriza con OAuth y queda ligado al espacio elegido en la pantalla de autorización.
+- Fuentes de verdad: https://app.heysteff.com/api/v1/llms-full.txt y https://developers.heysteff.com/docs/. No inventes endpoints.

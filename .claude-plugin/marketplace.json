@@ -1,0 +1,17 @@
+{
+  "name": "heysteff",
+  "description": "Plugins de heysteff para agentes de código: el servidor MCP, skills de la API omnicanal y reglas de seguridad para mensajes a personas reales.",
+  "owner": {
+    "name": "heysteff",
+    "url": "https://developers.heysteff.com"
+  },
+  "plugins": [
+    {
+      "name": "heysteff",
+      "source": "./plugins/heysteff",
+      "description": "Conecta el MCP de heysteff (https://mcp.heysteff.com/mcp, OAuth), suma skills para integrar, automatizar y observar la API v1, el comando /heysteff:setup y un chequeo de la CLI al empezar la sesión.",
+      "category": "development",
+      "homepage": "https://developers.heysteff.com/docs/agentes-de-codigo"
+    }
+  ]
+}
